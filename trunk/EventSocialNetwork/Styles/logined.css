@@ -1,0 +1,202 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+div#bg_header
+{
+    background: #d11349;
+}
+
+div#header
+{
+    width: 1024px;
+    height: 80px;
+    margin: 0 auto;
+    background: url(../images/interface/logo.gif) no-repeat;
+    position: relative;
+}
+
+img#imgLogin
+{
+    position: absolute;
+    left: 400px;
+    top: 30px;
+}
+
+div#login
+{
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+#emailLogin, #passLogin
+{
+    color: White;
+}
+#lnkLogin
+{
+    top: 25px;
+    left: 315px;
+    position: absolute;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: White;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+    color: #d11349;
+}
+#lnkLogin:hover
+{
+    background: #990033;
+    color: white;
+}
+#recoverPass
+{
+    position: absolute;
+    display: block;
+    padding-top: 3px;
+    text-decoration: none;
+    color: #ffcccc;
+    font-size: 0.9em;
+}
+
+#recoverPass:hover
+{
+    text-decoration: underline;
+}
+
+/*NAVIGATION*/
+#topNav
+{
+    list-style: none;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    float: left;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+#topNav li
+{
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+#topNav li a
+{
+    color: #333;
+    display: block;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#topNav li a:hover
+{
+    background: #fff;
+}
+
+div#container
+{
+    width: 100%;
+}
+
+/*AVATAR*/
+
+#imgAvatar
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 740px;
+    top: 30px;
+}
+
+#lblName
+{
+    position: absolute;
+    left: 790px;
+    top: 40px;
+    color: White;
+    font-weight: bold;
+}
+#btnLogout
+{
+    color: White;
+    background: black;
+    border: 1px solid #336699;
+    position: absolute;
+    top: 36px;
+    left: 920px;
+    background: #336699;
+    color: White;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+#btnLogout:hover
+{
+    text-decoration: underline;
+    background: white;
+    color: #336699;
+    border: 1px solid white;
+}
+/*CONTENT*/
+div#bg_content
+{
+    background: url(../images/interface/bg_content.jpg) repeat-x;
+}
+
+div#content
+{
+    width: 1024px;
+    height: 520px;
+    margin: 0 auto;
+}
+div#sidebar
+{
+    width: 180px;
+    float: left;
+    position: relative;
+    height: 100%;
+    border-right: 5px solid white;
+}
+
+div#primary
+{
+    float: left;
+    width: 835px;
+    height: 100%;
+}
+
+/*FOOTER*/
+div#bg_footer
+{
+    clear: both;
+    background: #990033;
+}
+
+div#footer
+{
+    width: 1024px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#copyright
+{
+    color: white;
+}
+
+img#img_footer
+{
+    padding-top: 15px;
+    width: 40px;
+    height: 15px;
+}

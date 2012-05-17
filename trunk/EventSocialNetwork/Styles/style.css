@@ -1,0 +1,275 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+div#container
+{
+    width: 100%;
+}
+
+/*HEADER*/
+div#bg_header
+{
+    background: #d11349;
+}
+
+div#header
+{
+    width: 1024px;
+    height: 80px;
+    margin: 0 auto;
+    background: url(../images/interface/logo.gif) no-repeat;
+    position: relative;
+}
+
+img#imgLogin
+{
+    position: absolute;
+    left: 370px;
+    top: 30px;
+}
+
+/*
+div#login
+{
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+#emailLogin, #passLogin
+{
+    color: White;
+}
+#recoverPass
+{
+    position: absolute;
+    display: block;
+    padding-top: 3px;
+    text-decoration: none;
+    color: #ffcccc;
+    font-size: 0.9em;
+} */
+
+#lnkLogin
+{
+    top: 35px;
+    left: 920px;
+    position: absolute;
+    width: 85px;
+    display: block;
+    text-decoration: none;
+    color: White;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+    color: #d11349;
+}
+#lnkLogin:hover
+{
+    background: #990033;
+    color: white;
+}
+
+#recoverPass:hover
+{
+    text-decoration: underline;
+}
+
+#loginForm
+{
+    position: absolute;
+    top: 5px;
+    left: 580px;
+}
+#emailLogin, #passLogin
+{
+    color: White;
+}
+#recoverPass
+{
+    color: #E87495;
+}
+.holdLogin
+{
+    color: #E87495;
+}
+/*CONTENT*/
+div#bg_content
+{
+    background: url(../images/interface/bg_content.jpg) repeat-x;
+}
+
+div#content
+{
+    width: 1024px;
+    height: 520px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+div#primary
+{
+    width: 630px;
+    float: left;
+    position: relative;
+    height: 100%;
+    border: 1px solid black;
+}
+
+img#iphone
+{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+a#lnkIphone
+{
+    position: absolute;
+    top: 455px;
+    left: 150px;
+    text-decoration: none;
+}
+
+a#lnkIphone:hover, #lnkAndroid:hover
+{
+    color: white;
+    font-weight: bold;
+}
+
+img#android
+{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+a#lnkAndroid
+{
+    position: absolute;
+    top: 455px;
+    left: 450px;
+    text-decoration: none;
+}
+
+div#sidebar
+{
+    float: right;
+    text-align: left;
+    width: 390px;
+    height: 100%;
+    position: relative;
+    border: 1px solid black;
+}
+
+/*REGISTER*/
+div#sidebar
+{
+    position: relative;
+    }
+h2#register
+{
+    padding-bottom: 10px;
+    padding-top: 60px;
+    text-align: left;
+    color: #003366;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.ddlGender
+{
+    margin-right: 170px;
+    height: 25px;
+}
+
+.ddlYOB
+{
+    margin-right: 79px;
+    height: 25px;
+}
+.ddlDOB
+{
+    height: 25px;
+}
+
+color: #003366;
+
+table
+{
+    height: 500px;
+    width: 100%;
+    }
+
+.txtRegister
+{
+    width: 240px;
+    height: 25px;
+    
+}
+#gender
+{
+    position: absolute;
+    left: 79px;
+}
+.btnRegister
+{
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    font-size: 1.2em;
+    width: 100px;
+    text-align: center;
+    background: #003366;
+    color: white;
+    position: absolute;
+    top: 350px;
+}
+
+.btnRegister:hover
+{
+    background: #990033;
+    color: white;
+    border: 1px solid #990033;
+}
+/*FOOTER*/
+div#bg_footer
+{
+    clear: both;
+    background: #d11349;
+}
+
+div#footer
+{
+    width: 1024px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#copyright
+{
+    color: white;
+}
+
+img#img_footer
+{
+    padding-top: 15px;
+    width: 40px;
+    height: 15px;
+}
+
+/*THONG BAO*/
+.txtThongbao
+{
+    margin-left: 150px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    font-size: 1.2em;
+    width: auto;
+    text-align: left;
+    background: white;
+    color: #d11349;
+}

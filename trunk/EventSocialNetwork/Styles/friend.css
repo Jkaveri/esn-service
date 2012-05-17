@@ -1,0 +1,56 @@
+﻿div#friendNav ul
+{
+    list-style: none;
+    margin-top: 10px;
+    background: #f0f0f0;
+}
+
+div#friendNav ul li
+{
+    border-bottom: 6px solid white;
+    height: 30px;
+}
+div#friendNav ul li a
+{
+    text-decoration: none;
+    display: block;
+    color: black;
+    line-height: 30px;
+    padding-left: 8px;
+}
+
+div#friendNav ul li a:hover
+{
+    background: #d11349;
+    color: White;
+    text-decoration: underline;
+}
+.targetLnk
+{
+    background: #d11349;
+    text-decoration: underline;  
+}
+
+/*For Friend.aspx*/
+
+#txtName
+{
+    color: #003366;
+    font-weight: bold;
+    }
+    #tblInfo
+    {
+        position: relative;
+        }
+    .btnCancel
+    {
+        background: #003366;
+        border: 1px solid #003366;
+        color: White;
+        height: 25px;
+        -webkit-border-radius: 10px;
+        margin-left: 40px;
+        position: absolute;
+        left: 200px;
+        top: 20px;
+        }

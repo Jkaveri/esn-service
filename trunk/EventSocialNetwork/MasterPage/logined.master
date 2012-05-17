@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="logined.master.cs" Inherits="Master_Page_logined" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mạng xã hội sự kiện ESN</title>
+    <link rel="shortcut icon" href="Images/interface/logo_footer.gif" />
+    <link href="../Styles/logined.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <!-- HEADER -->
+        <div id="bg_header">
+            <div id="header">
+                <ul id="topNav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sự kiện</a></li>
+                    <li><a href="<%=ConfigurationManager.AppSettings["Server"] %>friend.aspx">Bạn bè</a></li>
+                    <li><a href="<%=ConfigurationManager.AppSettings["Server"] %>profile.aspx">Hồ sơ</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+                <div>
+                    <asp:ImageButton ImageUrl="~/Images/interface/DefaultAvatar.jpg" runat="server"
+                        ID="imgAvatar" />
+                    <asp:Label Text="" runat="server" ID="lblName" />
+                    <asp:Button Text="Đăng xuất" runat="server" ID="btnLogout" OnClick="LogOut" />
+                </div>
+            </div>
+            <!--End #header-->
+        </div>
+        <!--End #bg_header-->
+        <!-- CONTENT -->
+        <div id="bg_content">
+            <div id="content">
+                <div id="sidebar">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="primary">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div id="bg_footer">
+            <div id="footer">
+                <img src="Images/interface/logo_footer1.png" id="img_footer" />
+                <p id="copyright">
+                    © 2012 - Bản quyền thuộc về Aprotrain Aptech</p>
+            </div>
+            <!--End #footer-->
+        </div>
+        <!--End #bg_footer-->
+    </div>
+    <!--End #container-->
+    </form>
+</body>
+</html>
