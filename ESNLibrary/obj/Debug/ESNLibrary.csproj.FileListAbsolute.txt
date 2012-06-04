@@ -1,0 +1,16 @@
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\bin\Debug\ESNLibrary.dll.config
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\bin\Debug\ESNLibrary.dll
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\bin\Debug\ESNLibrary.pdb
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\bin\Debug\Facebook.xml
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\obj\Debug\ESNLibrary.dll
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\obj\Debug\ESNLibrary.pdb
+E:\Du Lieu\Nam\Event Social Network Project\Code\esn-team3\ESNLibrary\bin\Debug\Facebook.dll
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\bin\Debug\ESNLibrary.dll.config
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\bin\Debug\ESNLibrary.dll
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\bin\Debug\ESNLibrary.pdb
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\bin\Debug\Facebook.dll
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\bin\Debug\Facebook.xml
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\obj\Debug\ESNLibrary.dll
+E:\Aptech do an\Project Google Api\Project Team 3\ESN-project-team3\ESNLibrary\obj\Debug\ESNLibrary.pdb
