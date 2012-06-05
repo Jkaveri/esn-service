@@ -147,9 +147,9 @@ namespace ESNLibrary
             return false;
         }
 
-        public LoginResult Login(string email, string password)
+        public LoginResult Login(string email, string encryptedPassword)
         {
-            return accDAL.Login(email, Supporter.MD5Encrypt(password));
+            return accDAL.Login(email, encryptedPassword);
         }
 
         public bool CheckOldPassword(AccountInfo accInfo, string password)

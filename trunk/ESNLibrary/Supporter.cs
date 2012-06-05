@@ -236,10 +236,16 @@ namespace ESNLibrary
 
         public static string MD5Encrypt(string strPlainText)
         {
+            string encryptedPassword = "";
             byte[] originalBytes = Encoding.UTF8.GetBytes(strPlainText);
             MD5 md5 = new MD5CryptoServiceProvider();
             byte[] encodedBytes = md5.ComputeHash(originalBytes);
-            return BitConverter.ToString(encodedBytes);
+            string[] str = BitConverter.ToString(encodedBytes).Split('-');
+            foreach (string item in str)
+            {
+                encryptedPassword += item;
+            }
+            return encryptedPassword;
         }
 
     }
