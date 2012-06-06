@@ -73,5 +73,15 @@ namespace ESNLibrary
             }
             return list;
         }
+
+        internal List<GetMyActivityResult> LoadMyActivity(int userID)
+        {
+            List<GetMyActivityResult> list = context.GetMyActivity(userID).ToList();
+            if (list.Count == 0)
+            {
+                return null;
+            }
+            return list;
+        }
     }
 }

@@ -95,6 +95,13 @@ namespace ESNLibrary
             return rs;
         }
 
+        public AccountInfo CheckEmailAndPassword(string email, string password)
+        {
+            AccountInfo rs = context.AccountInfos.SingleOrDefault(a => a.Account.Email.Equals(email) & a.Account.Password.Equals(password) & a.Status == 1);
+            return rs;
+        }
+
+
         //Ham lay ra account thao man mot sessionInfo
         public Account GetAccount(AccountInfo accInfo)
         {

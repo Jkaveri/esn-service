@@ -30,6 +30,7 @@ namespace ESNLibrary
             acti.Status = 1;
             actiDAL.InsertNewActivity(acti);
 
+
         }
 
         public List<GetInvitationResult> LoadInvitationMsg(int userID)
@@ -72,6 +73,11 @@ namespace ESNLibrary
         public List<GetNotificationResult> LoadNotificationMsg(int userID)
         {
             return actiDAL.LoadNotificationMsg(userID);
+        }
+
+        public List<GetMyActivityResult> LoadMyActivity(int userID)
+        {
+            return actiDAL.LoadMyActivity(userID);
         }
     }
 }

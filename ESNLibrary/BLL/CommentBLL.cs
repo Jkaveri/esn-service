@@ -20,7 +20,7 @@ namespace ESNLibrary
         }
 
 
-        public bool SendComment(int accID, int eventID, string comment)
+        public bool SendComment(AccountInfo accInfo, LoadEventInfoResult eventInfo, string comment)
         {
             if (string.IsNullOrEmpty(comment))
             {
@@ -29,14 +29,23 @@ namespace ESNLibrary
             else
             {
                 Comment com = new Comment();
-                com.AccID = int.Parse(accID.ToString());
-                com.EventID = eventID;
+                com.AccID = int.Parse(accInfo.AccID.ToString());
+                com.EventID = int.Parse(eventInfo.EventID.ToString());
                 com.Content = comment;
                 com.DayCreate = DateTime.Now;
                 com.Status = true;
                 comDAL.CreateComment(com);
+
+                Activity acti = new Activity();
+                acti.AccID = accInfo.AccID;
+                acti.EventID = int.Parse(eventInfo.EventID.ToString());
+                acti.ActiTypeID = 4;
+                acti.DayCreate = DateTime.Now;
+                acti.Status = 1;
+                acti.Content = accInfo.Name + " đã bình luận về sự kiện " + "<a href='comment.aspx?ID=" + eventInfo.EventID + "&Lat=" + eventInfo.EventLat + "&Lng=" + eventInfo.EventLng
+                                + "'>" + eventInfo.Title + "</a>";
+                actiDAL.InsertNewActivity(acti);
                 return true;
-                //Activity acti = new Activity();
             }
 
         }

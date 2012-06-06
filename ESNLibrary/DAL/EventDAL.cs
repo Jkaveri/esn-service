@@ -61,5 +61,17 @@ namespace ESNLibrary
             }
             return rs;
         }
+
+        public string GetEventInfo(int eventID)
+        {
+            string title = "";
+            var q = context.EventInfos.SingleOrDefault(e => e.EventID == eventID);
+            if (q != null)
+            {
+                title = q.Title;
+            }
+            return title;
+
+        }
     }
 }

@@ -152,6 +152,11 @@ namespace ESNLibrary
             return accDAL.Login(email, encryptedPassword);
         }
 
+        public AccountInfo CheckEmailAndPassword(string email, string encryptedPassword)
+        {
+            return accDAL.CheckEmailAndPassword(email, encryptedPassword);
+        }
+
         public bool CheckOldPassword(AccountInfo accInfo, string password)
         {
             Account a = accDAL.GetAccount(accInfo);
