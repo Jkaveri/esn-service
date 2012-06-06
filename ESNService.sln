@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ESNService", "E:\Du Lieu\Nam\Event Social Network Project\Code\esn-service\ESNService\", "{A4628F0E-A3A0-4A8C-A8A7-1BF9A432AE78}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ESNService"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Du Lieu\Nam\Event Social Network Project\Code\esn-service\ESNService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ESNService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ESNService"
+		Release.AspNetCompiler.PhysicalPath = "E:\Du Lieu\Nam\Event Social Network Project\Code\esn-service\ESNService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ESNService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1315"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESNLibrary", "E:\Du Lieu\Nam\Event Social Network Project\Code\esn-service\ESNLibrary\ESNLibrary.csproj", "{52A23235-22CF-4F70-B53C-F2449EF890F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4628F0E-A3A0-4A8C-A8A7-1BF9A432AE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4628F0E-A3A0-4A8C-A8A7-1BF9A432AE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4628F0E-A3A0-4A8C-A8A7-1BF9A432AE78}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4628F0E-A3A0-4A8C-A8A7-1BF9A432AE78}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{52A23235-22CF-4F70-B53C-F2449EF890F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A23235-22CF-4F70-B53C-F2449EF890F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A23235-22CF-4F70-B53C-F2449EF890F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A23235-22CF-4F70-B53C-F2449EF890F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
